@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SecureBox\Business Layer\CryptoMirror.cs">
+    <Files>
+      <File FileName="SecureBox\User Interface Layer\About.cs" Line="11" Column="29" />
+      <File FileName="SecureBox\Business Layer\CryptoMirror.cs" Line="450" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

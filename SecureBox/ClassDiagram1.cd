@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SecureBox.BL.CryptoMirror">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="GetPath" Hidden="true" />
+      <Field Name="label" Hidden="true" />
+      <Field Name="mountPoint" Hidden="true" />
+      <Field Name="mountPointEnd" Hidden="true" />
+      <Field Name="root" Hidden="true" />
+      <Field Name="settingsFile" Hidden="true" />
+      <Field Name="threadCount" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQEAAIAAIAAQBFAADQgACAAgAQCQACEAAEACEBBERA=</HashCode>
+      <FileName>Business Layer\CryptoMirror.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SecureBox.BL.DriveInfo">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\DriveInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SecureBox.BL.Encryptor">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <Members>
+      <Field Name="algorithm" Hidden="true" />
+      <Field Name="cipher" Hidden="true" />
+      <Field Name="key" Hidden="true" />
+      <Field Name="keySize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAAAAAAEAAAQAAAQAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Business Layer\Encryptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SecureBox.BL.SecureBox">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="appDirectory" Hidden="true" />
+      <Method Name="CreateDrive" Hidden="true" />
+      <Method Name="CreateDriveSettings" Hidden="true" />
+      <Field Name="driveLetters" Hidden="true" />
+      <Field Name="firstLetter" Hidden="true" />
+      <Field Name="formatConvert" Hidden="true" />
+      <Method Name="GetDrivePassword" Hidden="true" />
+      <Method Name="GetMd5Hash" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Field Name="internalKey" Hidden="true" />
+      <Field Name="threads" Hidden="true" />
+      <Method Name="ValidPassword" Hidden="true" />
+      <Method Name="VerifyMd5Hash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAYAgAkAIAgQAIAAABQBAAQABAChAAAIFAFIAAAAA=</HashCode>
+      <FileName>Business Layer\SecureBox.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="encryptor" />
+      <Field Name="appSettings" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="DrivesList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SecureBox.BL.XmlAppSettings">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="CreateSettings" Hidden="true" />
+      <Field Name="driveElem" Hidden="true" />
+      <Field Name="emptyElemValue" Hidden="true" />
+      <Field Name="firstLetter" Hidden="true" />
+      <Field Name="labelElem" Hidden="true" />
+      <Field Name="letterElem" Hidden="true" />
+      <Field Name="mountedDrive" Hidden="true" />
+      <Field Name="mountedElem" Hidden="true" />
+      <Field Name="rootElem" Hidden="true" />
+      <Field Name="settingsFile" Hidden="true" />
+      <Field Name="startElem" Hidden="true" />
+      <Field Name="xmlDoc" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAIUAAAAIAEAQAAAAAgABAAAADAAAEEAIAAAAgAIAA=</HashCode>
+      <FileName>Business Layer\XmlAppSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SecureBox.BL.XmlDriveSettings">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="CreateSettings" Hidden="true" />
+      <Field Name="emptyElemValue" Hidden="true" />
+      <Method Name="findElem" Hidden="true" />
+      <Field Name="keyElem" Hidden="true" />
+      <Field Name="md5passwordElem" Hidden="true" />
+      <Field Name="passwordElem" Hidden="true" />
+      <Field Name="path" Hidden="true" />
+      <Field Name="settingsFile" Hidden="true" />
+      <Field Name="startElem" Hidden="true" />
+      <Field Name="xmlDoc" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABIEAAAAAAAAQAEUEAiAAAAAAAIAACEQACAQAAAAAA=</HashCode>
+      <FileName>Business Layer\XmlDriveSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
